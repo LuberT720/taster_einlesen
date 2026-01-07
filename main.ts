@@ -22,5 +22,5 @@ I2C_LCD1602.LcdInit(1)
 I2C_LCD1602.ShowNumber(10, 0, 0)
 I2C_LCD1602.ShowString("Hello", 0, 0)
 basic.forever(function () {
-	
+    I2C_LCD1602.LcdInit(0)
 })
